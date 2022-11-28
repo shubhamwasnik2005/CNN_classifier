@@ -133,3 +133,4 @@ dmypy.json
 *.jpg
 *.zip
 artifacts/prepare_base_model/
+artifacts/prepare_callbacks/
