@@ -132,3 +132,4 @@ dmypy.json
 .vscode/
 *.jpg
 *.zip
+artifacts/prepare_base_model/
