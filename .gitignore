@@ -135,3 +135,4 @@ dmypy.json
 artifacts/prepare_base_model/
 artifacts/prepare_callbacks/
 artifacts/training/
+predicton_service/model.h5
