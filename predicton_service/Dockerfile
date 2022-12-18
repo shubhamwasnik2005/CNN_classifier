@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
 EXPOSE $PORT
-CMD streamlit run --server.port $PORT app.py
+CMD ["streamlit run --server.port $PORT app.py"]
