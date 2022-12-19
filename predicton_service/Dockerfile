@@ -2,5 +2,5 @@ FROM python:3.8-slim
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
-EXPOSE $PORT
-CMD streamlit run --server.port $PORT app.py
+EXPOSE 8080
+ENTRYPOINT [ "streamlit","run","app.py","--server.port=8080","--server.address=0.0.0.0" ]
